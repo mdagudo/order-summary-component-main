@@ -40,7 +40,12 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    min-height: 650px;
+    min-width: 338px;
+    box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
+    -webkit-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
+    -moz-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
 }
 
 .top-bg {
@@ -111,6 +116,7 @@ span.second {
 
 .change a:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 button {
@@ -127,23 +133,27 @@ button.pay {
     border: none;
     padding: 15px;
     width: 100%;
-    box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.25);
-    -webkit-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.25);
-    -moz-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.25);
+    cursor: pointer;
+    box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
+    -webkit-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
+    -moz-box-shadow: 0px 22px 11px -1px hsla(224, 23%, 55%, 0.15);
 }
 
 button.pay:hover {
     background-color: hsla(245, 75%, 52%, 0.7);
+    cursor: pointer;
 }
 
 button.cancel {
     background-color: transparent; 
     border: none;
     color: var(--desaturated-blue);
+    cursor: pointer;
 }
 
 button.cancel:hover {
     color: var(--dark-blue);
+    cursor: pointer;
 }
 
 @media screen and (min-width:500px) {
